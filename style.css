@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+}
+img{
+    max-width: 10vw;
+    max-height: 20vw;
+}
+.menu{
+    background-color: rgb(7, 1, 43);
+    color: rgb(200, 214, 226);
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    white-space: 10px;
+}
+li{
+    list-style: none;
+}
+li a{
+    border-left: 1px solid rgb(135, 127, 175);
+    color: rgb(233, 226, 248);
+    display: inline;
+    text-decoration: none;
+}
