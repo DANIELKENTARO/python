@@ -18,3 +18,30 @@ while i >= 0:
     print(i)
     i -= 1
 #exercicio 4
+
+import random
+numero = random.randint(1, 10)
+palpite = 0
+num_tentativas = 0
+while numero != palpite:
+ if palpite < numero:
+    print('digite um numero maior')
+    palpite = int (input("digite um numero entre 1 a 10"))
+    num_tentativas += 1
+ elif palpite > numero:
+    print("digite um numero menor")
+    palpite = int (input("digite um numero entre 1 a 10"))
+    num_tentativas += 1
+ elif numero == palpite:
+    print(f"parabens voce acertou com {num_tentativas} tentativas")
+
+#exercicio 5
+menu = ["iniciar", "sair"]
+seletor = ""
+while menu:
+    seletor = (input ("iniciar ou sair?").lower())
+    if seletor == "iniciar":
+        print ("não implementado")
+    elif seletor == "sair":
+        print ("tchau")
+        break
