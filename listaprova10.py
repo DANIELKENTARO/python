@@ -1,0 +1,6 @@
+n1 = float (input ("insira um numero"))
+n2 = float (input ("insira um numero"))
+n3 = float (input ("insira um numero"))
+n4 = float (input ("insira um numero"))
+n5 = float (input ("insira um numero"))
+print (f"soma dos numeros {n1 + n2 + n3 + n4 + n5}, multiplicacao dos numeros {n1 * n2 * n3 * n4 * n5}")
